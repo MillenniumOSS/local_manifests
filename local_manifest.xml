@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <remote name="MillenniumOSS"
+	    fetch="https://github.com/MillenniumOSS"
+	    clone-depth="1" />
+
+ <!-- Device -->
+ <project path="device/tecno/LH7n" name="android_device_tecno_LH7n" remote="MillenniumOSS" revision="lineage-23.0" />
+ <project path="device/tecno/CK7n" name="android_device_tecno_CK7n" remote="MillenniumOSS" revision="lineage-23.0" />
+ <project path="device/infinix/X678B" name="android_device_infinix_X678B" remote="MillenniumOSS" revision="lineage-23.0" />
+
+ <!-- Kernel -->
+ <project path="device/tecno/LH7n-kernel" name="android_device_tecno_LH7n-kernel" remote="MillenniumOSS" revision="sixteen" />
+ <project path="device/tecno/CK7n-kernel" name="android_device_tecno_CK7n-kernel" remote="MillenniumOSS" revision="sixteen" />
+ <project path="device/infinix/X678B-kernel" name="android_device_infinix_X678B-kernel" remote="MillenniumOSS" revision="sixteen" />
+
+ <!--Vendor -->
+ <project path="vendor/tecno/LH7n" name="android_vendor_tecno_LH7n" remote="MillenniumOSS" revision="sixteen" />
+ <project path="vendor/tecno/CK7n" name="android_vendor_tecno_CK7n" remote="MillenniumOSS" revision="sixteen" />
+ <project path="vendor/infinix/X678B" name="android_vendor_infinix_X678B" remote="MillenniumOSS" revision="sixteen" />
+
+ <!-- Dolby -->
+ <project path="vendor/sony/dolby" name="android_vendor_sony_dolby" remote="MillenniumOSS" revision="sixteen" />
+
+ <!--JamesDSP -->
+ <project path="vendor/JamesDSP" name="android_vendor_JamesDSP" remote="MillenniumOSS" revision="sixteen" />
+
+ <!-- Device Support stuffs -->
+ <project path="hardware/mediatek" name="android_hardware_mediatek" remote="MillenniumOSS" revision="sixteen" />
+ <project path="hardware/millennium" name="android_hardware_millennium" remote="MillenniumOSS" revision="sixteen" />
+ <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="MillenniumOSS" revision="sixteen"/>
+ <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="MillenniumOSS" revision="sixteen" />
+</manifest>
