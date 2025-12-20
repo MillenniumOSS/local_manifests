@@ -13,7 +13,7 @@
  <project path="device/tecno/LH7n-kernel" name="android_device_tecno_LH7n-kernel" remote="MillenniumOSS" revision="sixteen-mck" />
  <project path="device/tecno/CK7n-kernel" name="android_device_tecno_CK7n-kernel" remote="MillenniumOSS" revision="sixteen-mck" />
  <project path="device/infinix/X678B-kernel" name="android_device_infinix_X678B-kernel" remote="MillenniumOSS" revision="sixteen-mck" />
- <project path="device/millennium/common-kernel" name="android_device_millennium_common-kernel" remote="MillenniumOSS" revision="sixteen" />
+ <project path="device/millennium/common-kernel" name="android_device_millennium_common-kernel" remote="MillenniumOSS" revision="sixteen-vanilla" />
 
  <!--Vendor -->
  <project path="vendor/tecno/LH7n" name="android_vendor_tecno_LH7n" remote="MillenniumOSS" revision="sixteen" />
