@@ -5,14 +5,15 @@
 	    clone-depth="1" />
 
  <!-- Device -->
- <project path="device/tecno/LH7n" name="android_device_tecno_LH7n" remote="MillenniumOSS" revision="lineage-23.0" />
- <project path="device/tecno/CK7n" name="android_device_tecno_CK7n" remote="MillenniumOSS" revision="lineage-23.0" />
- <project path="device/infinix/X678B" name="android_device_infinix_X678B" remote="MillenniumOSS" revision="lineage-23.0" />
+ <project path="device/tecno/LH7n" name="android_device_tecno_LH7n" remote="MillenniumOSS" revision="lineage-23.1" />
+ <project path="device/tecno/CK7n" name="android_device_tecno_CK7n" remote="MillenniumOSS" revision="lineage-23.1" />
+ <project path="device/infinix/X678B" name="android_device_infinix_X678B" remote="MillenniumOSS" revision="lineage-23.1" />
 
  <!-- Kernel -->
- <project path="device/tecno/LH7n-kernel" name="android_device_tecno_LH7n-kernel" remote="MillenniumOSS" revision="sixteen" />
- <project path="device/tecno/CK7n-kernel" name="android_device_tecno_CK7n-kernel" remote="MillenniumOSS" revision="sixteen" />
- <project path="device/infinix/X678B-kernel" name="android_device_infinix_X678B-kernel" remote="MillenniumOSS" revision="sixteen" />
+ <project path="device/tecno/LH7n-kernel" name="android_device_tecno_LH7n-kernel" remote="MillenniumOSS" revision="sixteen-mck" />
+ <project path="device/tecno/CK7n-kernel" name="android_device_tecno_CK7n-kernel" remote="MillenniumOSS" revision="sixteen-mck" />
+ <project path="device/infinix/X678B-kernel" name="android_device_infinix_X678B-kernel" remote="MillenniumOSS" revision="sixteen-mck" />
+ <project path="device/millennium/common-kernel" name="android_device_millennium_common-kernel" remote="MillenniumOSS" revision="sixteen" />
 
  <!--Vendor -->
  <project path="vendor/tecno/LH7n" name="android_vendor_tecno_LH7n" remote="MillenniumOSS" revision="sixteen" />
@@ -20,7 +21,7 @@
  <project path="vendor/infinix/X678B" name="android_vendor_infinix_X678B" remote="MillenniumOSS" revision="sixteen" />
 
  <!-- Dolby -->
- <project path="vendor/sony/dolby" name="android_vendor_sony_dolby" remote="MillenniumOSS" revision="sixteen" />
+ <project path="vendor/sony/dolby" name="android_vendor_sony_dolby" remote="MillenniumOSS" revision="sixteen-expressive" />
 
  <!--JamesDSP -->
  <project path="vendor/JamesDSP" name="android_vendor_JamesDSP" remote="MillenniumOSS" revision="sixteen" />
