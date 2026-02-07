@@ -5,9 +5,9 @@
 	    clone-depth="1" />
 
  <!-- Device -->
- <project path="device/tecno/LH7n" name="android_device_tecno_LH7n" remote="MillenniumOSS" revision="lineage-23.1" />
- <project path="device/tecno/CK7n" name="android_device_tecno_CK7n" remote="MillenniumOSS" revision="lineage-23.1" />
- <project path="device/infinix/X678B" name="android_device_infinix_X678B" remote="MillenniumOSS" revision="lineage-23.1" />
+ <project path="device/tecno/LH7n" name="android_device_tecno_LH7n" remote="MillenniumOSS" revision="lineage-23.2" />
+ <project path="device/tecno/CK7n" name="android_device_tecno_CK7n" remote="MillenniumOSS" revision="lineage-23.2" />
+ <project path="device/infinix/X678B" name="android_device_infinix_X678B" remote="MillenniumOSS" revision="lineage-23.2" />
 
  <!-- Kernel -->
  <project path="device/tecno/LH7n-kernel" name="android_device_tecno_LH7n-kernel" remote="MillenniumOSS" revision="sixteen-mck" />
@@ -16,9 +16,9 @@
  <project path="device/millennium/common-kernel" name="android_device_millennium_common-kernel" remote="MillenniumOSS" revision="sixteen-vanilla" />
 
  <!--Vendor -->
- <project path="vendor/tecno/LH7n" name="android_vendor_tecno_LH7n" remote="MillenniumOSS" revision="sixteen" />
- <project path="vendor/tecno/CK7n" name="android_vendor_tecno_CK7n" remote="MillenniumOSS" revision="sixteen" />
- <project path="vendor/infinix/X678B" name="android_vendor_infinix_X678B" remote="MillenniumOSS" revision="sixteen" />
+ <project path="vendor/tecno/LH7n" name="android_vendor_tecno_LH7n" remote="MillenniumOSS" revision="sixteen-qpr2" />
+ <project path="vendor/tecno/CK7n" name="android_vendor_tecno_CK7n" remote="MillenniumOSS" revision="sixteen-qpr2" />
+ <project path="vendor/infinix/X678B" name="android_vendor_infinix_X678B" remote="MillenniumOSS" revision="sixteen-qpr2" />
 
  <!-- Dolby -->
  <project path="vendor/sony/dolby" name="android_vendor_sony_dolby" remote="MillenniumOSS" revision="sixteen-expressive" />
@@ -32,7 +32,7 @@
  <!-- Device Support stuffs -->
  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="MillenniumOSS" revision="sixteen" />
  <project path="hardware/millennium" name="android_hardware_millennium" remote="MillenniumOSS" revision="sixteen" />
- <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="MillenniumOSS" revision="sixteen"/>
- <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="MillenniumOSS" revision="sixteen" />
- <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="MillenniumOSS" revision="lineage-23.1" />
+ <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="MillenniumOSS" revision="sixteen-qpr2"/>
+ <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="MillenniumOSS" revision="sixteen-qpr2" />
+ <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="MillenniumOSS" revision="lineage-23.2" />
 </manifest>
