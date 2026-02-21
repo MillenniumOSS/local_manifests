@@ -26,13 +26,9 @@
  <!--JamesDSP -->
  <project path="vendor/JamesDSP" name="android_vendor_JamesDSP" remote="MillenniumOSS" revision="sixteen" />
 
- <!-- Remove external/wpa_supplicant_8 in favor of our fork -->
- <remove-project path="external/wpa_supplicant_8" />
-
  <!-- Device Support stuffs -->
  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="MillenniumOSS" revision="sixteen" />
  <project path="hardware/millennium" name="android_hardware_millennium" remote="MillenniumOSS" revision="sixteen" />
  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="MillenniumOSS" revision="sixteen-qpr2"/>
  <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="MillenniumOSS" revision="sixteen-qpr2" />
- <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="MillenniumOSS" revision="lineage-23.2" />
 </manifest>
