@@ -5,22 +5,22 @@
 	    clone-depth="1" />
 
  <!-- Device -->
- <project path="device/tecno/LG8n" name="android_device_tecno_LG8n" remote="MillenniumOSS" revision="lineage-23.2" />
- <project path="device/tecno/LG7n" name="android_device_tecno_LG7n" remote="MillenniumOSS" revision="lineage-23.2" />
- <project path="device/tecno/mt6789-common" name="android_device_tecno_mt6789-common" remote="MillenniumOSS" revision="sixteen-qpr2" />
+ <project path="device/tecno/LG8n" name="android_device_tecno_LG8n" remote="MillenniumOSS" revision="axion-16.2" />
+ <project path="device/tecno/LH7n" name="android_device_tecno_LH7n" remote="MillenniumOSS" revision="axion-16.2" />
+ <project path="device/tecno/mt6789-common" name="android_device_tecno_mt6789-common" remote="MillenniumOSS" revision="sixteen-axion" />
 
  <!-- Kernel -->
  <project path="device/tecno/LG8n-kernel" name="android_device_tecno_LG8n-kernel" remote="MillenniumOSS" revision="sixteen-mck" />
- <project path="device/tecno/LG7n-kernel" name="android_device_tecno_LG7n-kernel" remote="MillenniumOSS" revision="sixteen-mck" />
+ <project path="device/tecno/LH7n-kernel" name="android_device_tecno_LH7n-kernel" remote="MillenniumOSS" revision="sixteen-mck" />
  <project path="device/millennium/common-kernel" name="android_device_millennium_common-kernel" remote="MillenniumOSS" revision="sixteen-qpr2" />
 
  <!--Vendor -->
- <project path="vendor/tecno/LG8n" name="android_vendor_tecno_LG8n" remote="MillenniumOSS" revision="sixteen-bp3a" />
- <project path="vendor/tecno/LG7n" name="android_vendor_tecno_LG7n" remote="MillenniumOSS" revision="sixteen-bp3a" />
+ <project path="vendor/tecno/LG8n" name="android_vendor_tecno_LG8n" remote="MillenniumOSS" revision="sixteen" />
+ <project path="vendor/tecno/LH7n" name="android_vendor_tecno_LH7n" remote="MillenniumOSS" revision="sixteen-qpr2" />
  <project path="vendor/tecno/mt6789-common" name="android_vendor_tecno_mt6789-common" remote="MillenniumOSS" revision="bka" />
 
  <!-- Dolby -->
- <project path="vendor/sony/dolby" name="android_vendor_sony_dolby" remote="MillenniumOSS" revision="sixteen-expressive" />
+ <project path="vendor/sony/dolby" name="android_vendor_sony_dolby" remote="MillenniumOSS" revision="sixteen-redesign" />
 
  <!--JamesDSP -->
  <project path="vendor/JamesDSP" name="android_vendor_JamesDSP" remote="MillenniumOSS" revision="sixteen" />
