@@ -5,7 +5,7 @@
 	    clone-depth="1" />
 
  <!-- Device -->
- <project path="device/tecno/LG8n" name="android_device_tecno_LG8n" remote="MillenniumOSS" revision="lineage-23.2" />
+ <project path="device/tecno/LG8n" name="android_device_tecno_LG8n" remote="MillenniumOSS" revision="luminedroid-bellflower" />
  <project path="device/tecno/LG7n" name="android_device_tecno_LG7n" remote="MillenniumOSS" revision="lineage-23.2" />
  <project path="device/tecno/mt6789-common" name="android_device_tecno_mt6789-common" remote="MillenniumOSS" revision="sixteen-qpr2" />
  <project path="device/tecno/LH7n" name="android_device_tecno_LH7n" remote="MillenniumOSS" revision="lineage-23.2" />
@@ -24,11 +24,13 @@
 
  <!-- Remove Projects -->
  <remove-project path="packages/apps/Aperture" />
+ <remove-project path="vendor/products" />
 
  <!-- Device Support stuffs -->
  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="MillenniumOSS" revision="sixteen" />
  <project path="hardware/millennium" name="android_hardware_millennium" remote="MillenniumOSS" revision="sixteen" />
- <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="MillenniumOSS" revision="sixteen-qpr2-rebase"/>
+ <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="MillenniumOSS" revision="sixteen-qpr2-lmndroid"/>
  <project path="vendor/mediatek/ims" name="android_vendor_mediatek_ims" remote="MillenniumOSS" revision="sixteen-oem" />
  <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="MillenniumOSS" revision="lineage-23.2" />
+ <project path="vendor/products" name="platform_vendor_products" remote="MillenniumOSS" revision="bellflower" />
 </manifest>
